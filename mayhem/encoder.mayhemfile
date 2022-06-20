@@ -1,0 +1,7 @@
+project: tokenizers
+target: encoder
+
+cmds:
+  - cmd: /encoder
+  - cmd: /encoder_no_inst @@
+    libfuzzer: false
